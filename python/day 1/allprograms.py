@@ -132,4 +132,28 @@ print("After swapping",a,b)
 
 
 
+#fstring uses
+
+name="RAM"
+AGE=5
+print(f"name {name} age {AGE}")
+
+
+#fstring uses
+name="Abhishek"
+AGE=18
+clg="NIET"
+print(f"my name is {name}, my age is {AGE}. I'm studying in {clg}")
+
+
+
+#.format usage
+
+name="RAM"
+AGE=5
+print("name is {} and my age {}".format(name,AGE))
+#OUTPUT ---  name is RAM and my age 5
+
+
+
 
