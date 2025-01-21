@@ -156,4 +156,17 @@ print("name is {} and my age {}".format(name,AGE))
 
 
 
+#fstring uses
+name="Abhishek"
+AGE=18
+clg="NIET"
+roll= 3
+print("my name is {}, my age is {}. I'm studying in {}".format(name,AGE,clg,roll))
+
+
+
+num=91.08794
+print(f"the given number upto 2 decimal points {num:.2f}")
+
+#output -- the given number upto 2 decimal points 91.08794000
 
