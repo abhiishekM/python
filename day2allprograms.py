@@ -39,3 +39,31 @@ print(x is not y)
 print("memory location of x",id(x))
 print("memory location of z",id(z))
 print("memory location of y",id(y))
+
+
+
+
+a=5+8j
+print(type(a))
+#output --  <class 'complex'>
+
+
+ry=range(50)
+print(type(ry))
+#output -- <class 'range'>
+
+d={1,2,1}
+print(type(d))
+#output -- <class 'set'>
+
+#implicit type conversion
+x=5
+y=2.3
+print(x+y)
+
+
+#explicit type conversion
+
+x= int(input("Enter first number - "))
+y=6
+print(x+y)
