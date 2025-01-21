@@ -170,3 +170,23 @@ print(f"the given number upto 2 decimal points {num:.2f}")
 
 #output -- the given number upto 2 decimal points 91.08794000
 
+
+#print using seprator
+
+name="RAM"
+AGE=5
+print(name,AGE,sep='@')
+#output-  RAM@5
+
+
+
+name="RAM"
+age=25
+print(name,end=" ")
+print(age)
+#output -- RAM 25
+
+
+
+
+
