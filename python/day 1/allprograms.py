@@ -188,5 +188,10 @@ print(age)
 
 
 
-
+num1=input("Enter first number - ")
+num2=input("Enter second number - ")
+num3=input("Enter third number - ")
+num4=input("Enter fourth number - ")
+num5=input("Enter fifth number - ")
+print(num1,num2,num3,num4,num5,sep=',')
 
