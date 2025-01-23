@@ -63,6 +63,46 @@ else:
 
 
 
+num=int(input('enter number: '))
+if num>0:
+  if num%2==0:
+    print('divisible by 2')
+  else:
+    print('not divisible by 2')
+else:
+  print('enter a positive number')
+
+
+
+year = int(input("Enter a year: "))
+if year % 4 == 0:
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print("year is a leap year.")
+    else:
+      print("year is not a leap year.")
+  else:
+    print("year is a leap year.")
+else:
+  print("year is not a leap year.")
+
+
+
+#check number is divisible by 3 and 5 or not
+n=int(input("Enter a number"))
+if n%3==0 and n%5==0:
+  print("divisible by both number")
+else:
+  print("may be divisible by 1 number")
+
+
+
+#check number is divisible by 3 and 5 or not
+n=int(input("Enter a number >> "))
+if n%3==0 or n%5==0:
+  print("divisible by either 3 or 5")
+else:
+  print("not divisible by any of them")
 
 
 
