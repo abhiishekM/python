@@ -221,3 +221,82 @@ for i in range(1,n+1):
   factorial*=i
   n-=1
 print(factorial)
+
+
+
+num=1
+while num<=6:
+  if num==5:
+    print("Loop is terminated at number",num)
+    break
+  print(num)
+  num+=1
+
+
+num=1
+for i in range(num,6):
+  if i==4:
+    print("Loop is terminated at number",num)
+    break
+  print(i)
+
+
+L=[1,2,3,6,4,7,8]
+for i in range(0,len(L)):
+  if L[i]==6:
+    print("Found at index",i)
+    break
+
+
+L=[1,2,3,6,4,6,8,6]
+for i in range(0,len(L)):
+  if L[i]==6:
+    print("Found at index",i)
+
+
+
+num = 1
+while num < 7:
+  if num == 4:
+    num += 1
+    continue
+  print(num)
+  num += 1
+
+
+num = 1
+for i in range(num,8):
+  num += 1
+  if i == 4:
+    continue
+  print(i)
+
+
+
+num=10
+while num>0:
+  if num%2!=0:
+    num-=1
+    continue
+  print(num)
+  num -= 1
+
+
+
+num = 10
+for i in range(0,num+1):
+  if i%2!=0:
+    num-=1
+    continue
+  print(i)
+
+
+
+
+num = 10
+for i in range(0,num+1):
+  if i%2!=0:
+    num-=1
+    continue
+  print(i)
+
