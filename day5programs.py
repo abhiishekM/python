@@ -185,3 +185,39 @@ while count<len(l1):
 
 
 
+#factorial
+n=5
+factorial=1
+while n>0:
+  factorial*=n
+  n-=1
+print(factorial)
+
+
+
+#factorial of n
+n=int(input('Enter the number - '))
+factorial=1
+while n>0:
+  factorial*=n
+  n-=1
+print(factorial)
+
+
+#factorial
+n=5
+factorial=1
+for i in range(1,n+1):
+  factorial*=i
+  n-=1
+print(factorial)
+
+
+
+#factorial
+n=int(input('Enter the number - '))
+factorial=1
+for i in range(1,n+1):
+  factorial*=i
+  n-=1
+print(factorial)
