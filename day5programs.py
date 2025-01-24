@@ -133,3 +133,55 @@ else:
   print('loop executed')
 
 
+
+str1=input('Enter string - ')
+count=0
+while count<len(str1):
+  print(str1[count])
+  count+=1
+
+
+
+str1=input('Enter string - ')
+count=0
+while count<len(str1):
+  print(str1[count],end=',')
+  count+=1
+
+
+str1=input('Enter string - ')
+count=0
+while count<len(str1):
+  print(str1[count],end=',')
+  count+=1
+else:
+  print('\nexecuted')
+
+
+
+
+l1=[1,2,"RAM",True]
+count=0
+while count<len(l1):
+  print(l1[count])
+  count+=1
+
+
+
+l1=[1,2,"RAM",True]
+count=0
+while count<len(l1):
+  print(l1[count],end=',')
+  count+=1
+
+
+
+l1=(1,2,"RAM",True)
+count=0
+while count<len(l1):
+  print(l1[count])
+  count+=1
+
+
+
+
