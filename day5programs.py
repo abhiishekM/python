@@ -71,3 +71,65 @@ while count<num:
   else:
     print(num,"is odd")
   num-=1  
+
+
+for i in range(5):
+  print('h')
+
+
+for i in range(0,5):
+  print('h')
+
+for i in range(1,5):
+  print('h')
+
+
+n=100
+for i in range(1,101):
+  print(i)
+
+
+n=100
+for i in range(1,101):
+  print(i,end=',')
+
+
+n=100
+for i in range(1,101):
+  if i%2==0:
+    print(i,'is even')
+
+
+n=int(input('Enter the number - '))
+n1=1
+for i in range(1,11):
+  print(n,'x',n1,'=',n*n1)
+  n1+=1
+
+
+n=int(input('Enter number'))
+n1=0
+for i in range(n1,n+1):
+  n1+=i
+print(n1)
+
+
+for i in range(1,101):
+  if i%5==0:
+     print(i)
+
+
+num=1
+while num<=10:
+  print(num)
+  num+=1
+else:
+  print('Code successfully executed')
+
+
+for i in range(5):
+  print('Hello')
+else:
+  print('loop executed')
+
+
