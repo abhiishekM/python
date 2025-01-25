@@ -77,3 +77,41 @@ for i in range(1,n+1):
   print()
 
 
+
+rows = 5
+for i in range(1, rows + 1):
+  for j in range(65, 65 + i):
+    print(chr(j), end=" ")
+  print()
+
+
+rows = 5
+for i in range(1, rows + 1):
+  for j in range(97, 97 + i):
+    print(chr(j), end=" ")
+  print()
+
+
+
+n=int(input('Enter no.of rows - '))
+for i in range(n+1,1,-1):
+  for j in range(1,i):
+    print('*',end="")
+  print()
+
+
+n=int(input('Enter no.of rows - '))
+for i in range(1,n+1):
+    print(" "*(n-i)+"*"*(2*i-1))
+
+
+n=int(input('Enter no.of rows - '))
+for i in range(n,0,-1):
+    print(" "*(n-i)+"*"*(2*i-1))
+
+
+n=int(input('Enter no.of rows - '))
+for i in range(1,n+1):
+    print(" "*(n-i)+"*"*(2*i-1))
+for i in range(n,0,-1):
+    print(" "*(n-i)+"*"*(2*i-1))
