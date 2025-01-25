@@ -18,3 +18,14 @@ if pf==num:
   print('Perfect Number')
 else:
   print('Not a perfect number')
+#alternative program for perfect number(in this we'll use only n/2
+n=int(input('Enter the number - '))
+pf=0
+num=n//2
+for i in range(1,num+1):
+  if n%i==0:
+    pf+=i
+if pf==n:
+  print('Perfect Number')
+else:
+  print('Not a perfect number')
