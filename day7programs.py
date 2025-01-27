@@ -81,3 +81,60 @@ print(femt)
 
 divv=lambda x: "divisible" if x%3==0 and x%5==0 else "not divisible"
 print(divv(5))
+
+
+
+#to find even number from a list using filter function
+number=[1,2,3,64,31,65,84,10]
+def even(n):
+  if n%2==0:
+    return True
+evenn=filter(even,number)
+evenn_list=list(evenn)
+print(evenn_list)
+
+
+#to find even number from a list using filter function
+number=[1,2,3,64,31,65,4,1]
+def great(n):
+  if n>5:
+    return True
+big=filter(great,number)
+print(list(big))
+
+############ recursion  #############
+
+def show(n):
+  if n==0:
+    return
+  print(n)
+  show(n-1)
+
+n=int(input('Enter a number- '))
+show(n)
+
+
+def facto(num):
+  if num==0 or num==1:
+    return 1
+  else:
+    return num*facto(num-1)
+
+n=int(input('Enter a number- '))
+facto(n)
+
+
+def fibo(num):
+  if num==0:
+    return 0
+  elif num==1:
+    return 1
+  else:
+    return fibo(num-1)+fibo(num-2)
+
+num=int(input('Enter value of n- '))
+for i in range(num):
+  print(fibo(i),end=" ")
+
+
+
