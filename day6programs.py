@@ -115,11 +115,20 @@ palindrome_num(n)
 
 
 #armstrong number program
-def armstrong_num(n)
+def armstrong_num(n):
+  temp=0
+  p=int(n)
   sum=0
-  pow=len(n)
-  for i in range(1,n+1):
-    m=n%i
-    sum
-
+  for i in range(1,p+1):
+    temp=int(p)%10
+    temp=temp**len(n)
+    sum+=temp
+    p=p/10
+  return sum
+n=input('Enter a number- ')
+p=armstrong_num(n)
+if p==int(n):
+    print('Armstrong NUmber')
+else:
+    print('Not')
 
