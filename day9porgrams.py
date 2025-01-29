@@ -29,3 +29,25 @@ print(num)
 a,b,c,*d=num
 print(a,b,c,*d) #output 384 1 53653 345 351 1 315
 print(a,b,c,d)  #output 384 1 53653 [345, 351, 1, 315]
+
+
+
+def sum_all(*args):
+  return sum(args)
+packed_args=10,65,46
+result=sum_all(*packed_args)
+print(result)
+
+#output- 121
+
+
+
+def display_info(**kargs):
+  for key,value in kargs.items():
+    print(key,':',value)
+
+packed_kwargs={'name':'Alice', 'age':15}
+display_info(**packed_kwargs)
+#output- name : Alice
+#output- age : 15
+
