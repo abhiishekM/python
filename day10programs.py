@@ -76,3 +76,44 @@ else:
   print('Not Palindrome')
 
 
+
+#### dictionaries method #####
+
+dict={'name':'sujeet','age':21,'state':'bihar'}
+print(dict.keys())
+
+
+dict={'name':'sujeet','age':21,'state':'bihar'}
+print(dict.values ())
+
+dict={'name':'sujeet','age':21,'state':'bihar'}
+a={'name1':'sooraj','age1':19,'state1':'jharkhand'}
+dict.update(a)
+print(dict)
+
+
+dict={'name':'sujeet','age':21,'state':'bihar'}
+print(dict.pop('age'))
+print(dict)
+
+dict={'name':'sujeet','age':21,'state':'bihar'}
+print(dict.popitem())
+
+
+dict={'name':'sujeet','age':21,'state':'bihar'}
+print(dict.clear())
+
+
+my_set = {"apple", "banana", "cherry"}
+for item in my_set:
+ print(item)
+
+
+import re
+print(bool(re.match(r"Hello", "Hello World")))
+
+
+import re
+str='I have a cat'
+result=re.match('string','I have a cat')
+print(result)
