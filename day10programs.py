@@ -51,3 +51,28 @@ lst=list(sen)
 print(len(lst))
 #17
 
+
+
+sen='my name is sujeet'
+lst=list(sen)
+vowel=0
+const=0
+for i in range(0,len(lst)):
+  if lst[i]=='A' or lst[i]=='E' or lst[i]=='I' or lst[i]=='O' or lst[i]=='U' or lst[i]=='a' or lst[i]=='e' or lst[i]=='i' or lst[i]=='o' or lst[i]=='u':
+    vowel+=1
+  else:
+    const+=1
+print('No. of Vowels:',vowel)
+print('No. of Consonant:',const)
+#No. of Vowels: 6
+#No. of Consonant: 11
+
+
+s=input('Enter string: ')
+p=s[::-1]
+if s==p:
+  print('Palindrome')
+else:
+  print('Not Palindrome')
+
+
