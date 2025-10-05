@@ -3,7 +3,7 @@ c=file.readlines()
 print(c)
 file.close()
 
-
+#hacktober trial only
 file=open('nf.txt','r')
 c=file.readline()
 print(c)
