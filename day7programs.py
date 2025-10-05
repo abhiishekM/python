@@ -12,7 +12,7 @@ print(pow(2,4))
 
 #//trial only trial.hehe
 
-div=lambda x,y: x/y
+div=lambda x,y: x/y#helloy
 print(div(54,9))
 
 
