@@ -10,6 +10,7 @@ print(sub(1,4))
 pow=lambda x,y: x**y
 print(pow(2,4))
 
+#//trial only trial.hehe
 
 div=lambda x,y: x/y
 print(div(54,9))
